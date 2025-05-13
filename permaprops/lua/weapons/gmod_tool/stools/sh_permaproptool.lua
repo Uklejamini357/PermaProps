@@ -101,4 +101,9 @@ function TOOL:BuildCPanel()
         Label = "Perma Prop Settings", 
         Command = "permaprops_open_admin"
     })
+
+    self:AddControl("Button", {
+        Label = "Reload Perma Props", 
+        Command = "permaprops_open_reloadprops",
+    })
 end
